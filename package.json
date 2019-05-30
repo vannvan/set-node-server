@@ -1,0 +1,31 @@
+{
+  "name": "set-server",
+  "version": "1.0.0",
+  "description": "Open Local Node Service",
+  "bin": {
+    "set-server": "bin/index.js",
+    "ss": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vannvan/set-server.git"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "keywords": [
+    "node",
+    "server",
+    "local-server"
+  ],
+  "author": "https://github.com/vannvan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vannvan/set-server/issues"
+  },
+  "homepage": "https://github.com/vannvan/set-server#readme"
+}
