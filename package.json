@@ -1,6 +1,6 @@
 {
-  "name": "set-server",
-  "version": "1.0.0",
+  "name": "set-node-server",
+  "version": "1.0.1",
   "description": "Open Local Node Service",
   "bin": {
     "set-server": "bin/index.js",
@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/vannvan/set-server.git"
   },
+  
   "files": [
     "lib",
     "bin"
@@ -27,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/vannvan/set-server/issues"
   },
-  "homepage": "https://github.com/vannvan/set-server#readme"
+  "homepage": "https://github.com/vannvan/set-server#readme",
+  "dependencies": {}
 }

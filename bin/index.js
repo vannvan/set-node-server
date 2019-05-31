@@ -1,9 +1,4 @@
-/*
-* @Author: vannvan
-* @Date:   2019-05-30 21:18:32
-* @Last Modified by:   wanwan
-* @Last Modified time: 2019-05-30 21:18:59
-*/
+#!/usr/bin/env node
 const os = require('os');
 const http = require('http');
 const fs = require('fs');
