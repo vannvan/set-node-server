@@ -65,7 +65,6 @@ var server=http.createServer(function(req,res){
             		res.write('<br/>'+`<a href="${f}">${f}</a>`+'\n')
             	}
             }
-            // res.write('<h1>404错误</h1><p>你要找的页面不存在</p>');
             res.end();
         }else{
             res.writeHeader(200,{
