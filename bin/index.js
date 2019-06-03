@@ -8,14 +8,16 @@ const port = Math.floor(Math.random () * 1000) + 8000;
 
 var localIP = Ip.getlocalIp()
 
-//创建本地服务
+var wlanIp = Ip.getWlanIp() || localIP[0]
+
+//创建本地局域网服务
 async function setHttpServer() {
 	await setConsoleInfo();
 	await fs.exists('index.html',function(exists){
 	if(!exists){
-			openDefaultBrowser(`http://`+localIP[0]+':'+port)
+			openDefaultBrowser(`http://`+wlanIp+':'+port)
 	  	}else{
-			openDefaultBrowser(`http://`+localIP[0]+':'+port+'/index.html')
+			openDefaultBrowser(`http://`+wlanIp+':'+port+'/index.html')
 	  	}
 	})
 }
