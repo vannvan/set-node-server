@@ -1,11 +1,11 @@
 ## about
 
-开启基于node的本地服务
+Start a front-end service based on node.js
 ## install
 
-> npm i set-server -g
+> npm i set-node-server -g
 
 ## use
 
-> set-server
+> set-server  OR  
 > ss
